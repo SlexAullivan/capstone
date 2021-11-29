@@ -282,7 +282,7 @@ class ExecuteSubmission(APIView):
             headers = {
                 'content-type': "application/json",
                 'x-rapidapi-host': "judge0-ce.p.rapidapi.com",
-                'x-rapidapi-key': "9df88b19e0mshce2e66d4305a6a3p131542jsncd8f2046d7cd"
+                'x-rapidapi-key': "REDACTED"
             }
             payload = {
                 'language_id': 71,
@@ -299,7 +299,7 @@ class ExecuteSubmission(APIView):
             querystring = {"base64_encoded":"false","fields":"*"}
             headers = {
                 'x-rapidapi-host': "judge0-ce.p.rapidapi.com",
-                'x-rapidapi-key': "9df88b19e0mshce2e66d4305a6a3p131542jsncd8f2046d7cd"
+                'x-rapidapi-key': "REDACTED"
             }
             response = requests.request("GET", requestUrl, headers=headers, params=querystring)
             JSONresponse = json.loads(response.text)
