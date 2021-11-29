@@ -245,7 +245,7 @@ def runCode(request):
     headers = {
         'content-type': "application/json",
         'x-rapidapi-host': "judge0-ce.p.rapidapi.com",
-        'x-rapidapi-key': "9df88b19e0mshce2e66d4305a6a3p131542jsncd8f2046d7cd"
+        'x-rapidapi-key': "REDACTED"
         }
 
     response = requests.request("POST", url, data=payload, headers=headers, params=querystring)
@@ -256,7 +256,7 @@ def runCode(request):
 
     headers = {
         'x-rapidapi-host': "judge0-ce.p.rapidapi.com",
-        'x-rapidapi-key': "9df88b19e0mshce2e66d4305a6a3p131542jsncd8f2046d7cd"
+        'x-rapidapi-key': "REDACTED"
         }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
